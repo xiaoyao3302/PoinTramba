@@ -1,0 +1,976 @@
+2024-05-14 00:46:01,941 - finetune_scan_hardest_lr3_group_size16 - INFO - >> # TrainableParams:       	19.50	M  19501.07	K
+2024-05-14 00:46:01,941 - finetune_scan_hardest_lr3_group_size16 - INFO - >> # NonTrainableParams:    	0.00	M
+2024-05-14 00:46:01,941 - finetune_scan_hardest_lr3_group_size16 - INFO - >> # TotalParams:           	19.50	M
+2024-05-14 00:46:01,941 - finetune_scan_hardest_lr3_group_size16 - INFO - >> # TuningRatio:           	100.00	%
+2024-05-14 00:46:01,941 - finetune_scan_hardest_lr3_group_size16 - INFO - 
+
+2024-05-14 00:49:55,854 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 0 EpochTime = 233.911 (s) Losses = ['6.6622', '9.1643'] lr = 0.000010
+2024-05-14 00:49:57,916 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 00:53:52,553 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 1 EpochTime = 234.635 (s) Losses = ['5.3739', '16.5467'] lr = 0.000039
+2024-05-14 00:54:14,105 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 1  acc = 25.1214
+2024-05-14 00:54:16,154 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 00:54:16,154 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 00:54:18,243 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 00:58:12,617 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 2 EpochTime = 234.372 (s) Losses = ['4.9039', '28.0109'] lr = 0.000068
+2024-05-14 00:58:34,180 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 2  acc = 9.5420
+2024-05-14 00:58:36,883 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:02:31,207 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 3 EpochTime = 234.322 (s) Losses = ['4.4150', '35.9814'] lr = 0.000097
+2024-05-14 01:02:52,841 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 3  acc = 13.1506
+2024-05-14 01:02:54,900 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:06:48,870 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 4 EpochTime = 233.968 (s) Losses = ['4.1228', '39.9052'] lr = 0.000126
+2024-05-14 01:07:10,513 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 4  acc = 16.2734
+2024-05-14 01:07:14,374 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:11:09,438 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 5 EpochTime = 235.062 (s) Losses = ['3.8771', '41.8452'] lr = 0.000155
+2024-05-14 01:11:31,144 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 5  acc = 18.9799
+2024-05-14 01:11:35,329 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:15:30,072 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 6 EpochTime = 234.742 (s) Losses = ['3.7005', '43.6622'] lr = 0.000184
+2024-05-14 01:15:51,787 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 6  acc = 26.3012
+2024-05-14 01:15:53,899 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:15:53,899 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:15:55,963 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:19:50,976 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 7 EpochTime = 235.012 (s) Losses = ['3.5195', '47.0681'] lr = 0.000213
+2024-05-14 01:20:12,726 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 7  acc = 26.4053
+2024-05-14 01:20:15,097 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:20:15,097 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:20:17,454 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:24:12,775 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 8 EpochTime = 235.319 (s) Losses = ['3.3742', '50.1492'] lr = 0.000242
+2024-05-14 01:24:34,422 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 8  acc = 42.2623
+2024-05-14 01:24:40,476 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:24:40,476 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:24:44,745 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:28:39,827 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 9 EpochTime = 235.080 (s) Losses = ['3.2530', '53.5025'] lr = 0.000271
+2024-05-14 01:29:01,565 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 9  acc = 35.1145
+2024-05-14 01:29:03,942 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:32:59,139 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 10 EpochTime = 235.194 (s) Losses = ['3.1149', '56.6187'] lr = 0.000299
+2024-05-14 01:33:20,872 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 10  acc = 47.2241
+2024-05-14 01:33:23,465 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:33:23,465 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:33:27,224 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:37:21,957 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 11 EpochTime = 234.732 (s) Losses = ['2.9874', '59.4364'] lr = 0.000299
+2024-05-14 01:37:43,642 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 11  acc = 48.0569
+2024-05-14 01:37:46,069 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:37:46,069 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:37:48,403 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:41:43,728 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 12 EpochTime = 235.323 (s) Losses = ['2.8499', '62.8336'] lr = 0.000299
+2024-05-14 01:42:05,385 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 12  acc = 53.1922
+2024-05-14 01:42:08,865 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:42:08,866 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:42:13,450 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:46:08,262 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 13 EpochTime = 234.810 (s) Losses = ['2.7616', '64.8876'] lr = 0.000299
+2024-05-14 01:46:30,085 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 13  acc = 54.9965
+2024-05-14 01:46:32,436 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:46:32,436 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:46:34,784 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:50:29,720 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 14 EpochTime = 234.933 (s) Losses = ['2.6595', '68.2496'] lr = 0.000298
+2024-05-14 01:50:51,532 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 14  acc = 69.1534
+2024-05-14 01:50:54,674 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:50:54,674 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:50:58,959 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:54:54,453 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 15 EpochTime = 235.492 (s) Losses = ['2.5787', '69.9438'] lr = 0.000298
+2024-05-14 01:55:16,221 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 15  acc = 69.4657
+2024-05-14 01:55:18,567 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 01:55:18,567 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 01:55:20,940 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 01:59:16,084 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 16 EpochTime = 235.140 (s) Losses = ['2.5013', '71.1464'] lr = 0.000298
+2024-05-14 01:59:37,821 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 16  acc = 68.4941
+2024-05-14 01:59:40,183 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:03:35,809 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 17 EpochTime = 235.624 (s) Losses = ['2.4370', '72.7704'] lr = 0.000298
+2024-05-14 02:03:57,568 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 17  acc = 63.2547
+2024-05-14 02:03:59,921 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:07:54,987 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 18 EpochTime = 235.064 (s) Losses = ['2.3474', '74.8683'] lr = 0.000297
+2024-05-14 02:08:16,744 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 18  acc = 68.8411
+2024-05-14 02:08:19,118 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:12:14,982 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 19 EpochTime = 235.863 (s) Losses = ['2.3187', '74.7718'] lr = 0.000297
+2024-05-14 02:12:36,732 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 19  acc = 75.9542
+2024-05-14 02:12:39,076 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:12:39,077 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:12:41,493 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:16:36,829 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 20 EpochTime = 235.335 (s) Losses = ['2.2445', '76.1938'] lr = 0.000297
+2024-05-14 02:16:58,563 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 20  acc = 72.5885
+2024-05-14 02:17:00,945 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:20:56,412 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 21 EpochTime = 235.466 (s) Losses = ['2.1968', '77.7212'] lr = 0.000297
+2024-05-14 02:21:18,176 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 21  acc = 75.9889
+2024-05-14 02:21:21,496 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:21:21,496 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:21:23,895 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:25:18,760 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 22 EpochTime = 234.862 (s) Losses = ['2.1258', '79.3276'] lr = 0.000296
+2024-05-14 02:25:40,526 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 22  acc = 76.3012
+2024-05-14 02:25:42,905 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:25:42,905 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:25:45,270 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:29:40,122 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 23 EpochTime = 234.850 (s) Losses = ['2.0964', '80.1264'] lr = 0.000296
+2024-05-14 02:30:01,974 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 23  acc = 74.2540
+2024-05-14 02:30:04,401 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:33:59,774 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 24 EpochTime = 235.371 (s) Losses = ['2.0565', '80.9691'] lr = 0.000295
+2024-05-14 02:34:21,589 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 24  acc = 77.5156
+2024-05-14 02:34:23,949 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:34:23,949 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:34:26,451 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:38:21,198 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 25 EpochTime = 234.744 (s) Losses = ['2.0178', '81.3729'] lr = 0.000295
+2024-05-14 02:38:42,992 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 25  acc = 78.0014
+2024-05-14 02:38:45,380 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:38:45,380 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:38:47,722 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:42:43,394 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 26 EpochTime = 235.671 (s) Losses = ['1.9778', '82.3824'] lr = 0.000295
+2024-05-14 02:43:05,247 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 26  acc = 80.2568
+2024-05-14 02:43:08,894 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:43:08,894 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:43:11,936 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:47:06,902 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 27 EpochTime = 234.964 (s) Losses = ['1.9288', '82.8739'] lr = 0.000294
+2024-05-14 02:47:28,605 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 27  acc = 78.5219
+2024-05-14 02:47:30,959 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:51:26,356 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 28 EpochTime = 235.395 (s) Losses = ['1.9181', '83.5411'] lr = 0.000294
+2024-05-14 02:51:48,144 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 28  acc = 76.9951
+2024-05-14 02:51:50,464 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 02:55:45,630 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 29 EpochTime = 235.165 (s) Losses = ['1.8861', '84.3750'] lr = 0.000293
+2024-05-14 02:56:07,484 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 29  acc = 80.3956
+2024-05-14 02:56:09,823 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 02:56:09,823 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 02:56:12,157 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:00:07,612 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 30 EpochTime = 235.453 (s) Losses = ['1.8523', '85.4810'] lr = 0.000293
+2024-05-14 03:00:29,470 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 30  acc = 81.8529
+2024-05-14 03:00:31,792 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 03:00:31,792 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 03:00:34,150 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:04:29,362 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 31 EpochTime = 235.211 (s) Losses = ['1.8249', '85.3143'] lr = 0.000292
+2024-05-14 03:04:51,132 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 31  acc = 81.1242
+2024-05-14 03:04:53,423 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:08:48,496 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 32 EpochTime = 235.071 (s) Losses = ['1.8134', '85.8146'] lr = 0.000292
+2024-05-14 03:09:10,397 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 32  acc = 80.9854
+2024-05-14 03:09:12,794 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:13:08,355 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 33 EpochTime = 235.560 (s) Losses = ['1.7689', '86.3940'] lr = 0.000291
+2024-05-14 03:13:30,187 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 33  acc = 81.7835
+2024-05-14 03:13:32,549 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:17:27,965 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 34 EpochTime = 235.414 (s) Losses = ['1.7496', '87.2191'] lr = 0.000291
+2024-05-14 03:17:49,919 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 34  acc = 82.9979
+2024-05-14 03:17:54,044 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 03:17:54,045 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 03:17:56,398 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:21:52,330 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 35 EpochTime = 235.930 (s) Losses = ['1.7383', '86.9206'] lr = 0.000290
+2024-05-14 03:22:14,144 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 35  acc = 79.2158
+2024-05-14 03:22:16,469 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:26:12,149 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 36 EpochTime = 235.678 (s) Losses = ['1.7012', '87.9565'] lr = 0.000290
+2024-05-14 03:26:34,064 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 36  acc = 83.6225
+2024-05-14 03:26:38,453 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 03:26:38,453 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 03:26:42,602 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:30:38,343 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 37 EpochTime = 235.739 (s) Losses = ['1.6836', '88.3603'] lr = 0.000289
+2024-05-14 03:31:00,307 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 37  acc = 81.9570
+2024-05-14 03:31:02,716 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:34:58,464 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 38 EpochTime = 235.746 (s) Losses = ['1.6773', '88.3515'] lr = 0.000289
+2024-05-14 03:35:20,287 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 38  acc = 83.1367
+2024-05-14 03:35:22,705 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:39:18,474 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 39 EpochTime = 235.767 (s) Losses = ['1.6624', '88.4305'] lr = 0.000288
+2024-05-14 03:39:40,377 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 39  acc = 80.3609
+2024-05-14 03:39:42,763 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:43:38,335 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 40 EpochTime = 235.569 (s) Losses = ['1.6526', '88.6148'] lr = 0.000287
+2024-05-14 03:44:00,173 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 40  acc = 83.1367
+2024-05-14 03:44:02,524 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:47:57,974 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 41 EpochTime = 235.449 (s) Losses = ['1.6268', '89.3961'] lr = 0.000287
+2024-05-14 03:48:20,046 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 41  acc = 82.3386
+2024-05-14 03:48:22,443 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:52:18,653 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 42 EpochTime = 236.203 (s) Losses = ['1.5995', '90.0895'] lr = 0.000286
+2024-05-14 03:52:40,579 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 42  acc = 82.8938
+2024-05-14 03:52:43,536 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 03:56:39,008 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 43 EpochTime = 235.470 (s) Losses = ['1.5869', '89.9666'] lr = 0.000286
+2024-05-14 03:57:00,991 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 43  acc = 83.3449
+2024-05-14 03:57:05,161 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:01:00,891 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 44 EpochTime = 235.729 (s) Losses = ['1.5724', '90.2300'] lr = 0.000285
+2024-05-14 04:01:22,776 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 44  acc = 84.9063
+2024-05-14 04:01:25,139 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 04:01:25,140 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 04:01:27,640 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:05:23,369 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 45 EpochTime = 235.727 (s) Losses = ['1.5625', '90.7918'] lr = 0.000284
+2024-05-14 04:05:45,336 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 45  acc = 84.0389
+2024-05-14 04:05:48,078 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:09:43,832 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 46 EpochTime = 235.753 (s) Losses = ['1.5363', '91.1868'] lr = 0.000283
+2024-05-14 04:10:05,715 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 46  acc = 81.0895
+2024-05-14 04:10:08,089 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:14:03,522 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 47 EpochTime = 235.431 (s) Losses = ['1.5340', '91.1868'] lr = 0.000283
+2024-05-14 04:14:25,315 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 47  acc = 83.4837
+2024-05-14 04:14:27,638 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:18:23,034 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 48 EpochTime = 235.395 (s) Losses = ['1.5137', '91.4150'] lr = 0.000282
+2024-05-14 04:18:45,005 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 48  acc = 83.4837
+2024-05-14 04:18:47,345 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:22:43,332 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 49 EpochTime = 235.985 (s) Losses = ['1.4947', '92.0295'] lr = 0.000281
+2024-05-14 04:23:05,227 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 49  acc = 84.7328
+2024-05-14 04:23:08,485 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:27:04,459 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 50 EpochTime = 235.971 (s) Losses = ['1.4850', '92.3192'] lr = 0.000281
+2024-05-14 04:27:26,428 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 50  acc = 83.7613
+2024-05-14 04:27:28,762 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:31:24,926 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 51 EpochTime = 236.163 (s) Losses = ['1.4703', '92.3104'] lr = 0.000280
+2024-05-14 04:31:46,801 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 51  acc = 85.9126
+2024-05-14 04:31:49,168 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 04:31:49,169 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 04:31:53,422 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:35:48,833 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 52 EpochTime = 235.409 (s) Losses = ['1.4670', '92.6352'] lr = 0.000279
+2024-05-14 04:36:10,751 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 52  acc = 83.7960
+2024-05-14 04:36:14,820 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:40:10,622 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 53 EpochTime = 235.799 (s) Losses = ['1.4674', '92.5737'] lr = 0.000278
+2024-05-14 04:40:32,534 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 53  acc = 84.4552
+2024-05-14 04:40:34,877 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:44:30,379 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 54 EpochTime = 235.501 (s) Losses = ['1.4469', '92.6879'] lr = 0.000277
+2024-05-14 04:44:52,246 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 54  acc = 83.9348
+2024-05-14 04:44:54,655 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:48:50,587 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 55 EpochTime = 235.930 (s) Losses = ['1.4303', '93.1004'] lr = 0.000277
+2024-05-14 04:49:12,481 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 55  acc = 84.9757
+2024-05-14 04:49:15,016 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:53:11,101 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 56 EpochTime = 236.084 (s) Losses = ['1.4296', '93.3287'] lr = 0.000276
+2024-05-14 04:53:32,987 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 56  acc = 85.0798
+2024-05-14 04:53:35,344 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 04:57:30,683 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 57 EpochTime = 235.337 (s) Losses = ['1.4025', '93.6973'] lr = 0.000275
+2024-05-14 04:57:52,514 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 57  acc = 83.3449
+2024-05-14 04:57:55,174 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:01:51,024 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 58 EpochTime = 235.848 (s) Losses = ['1.3997', '94.1713'] lr = 0.000274
+2024-05-14 05:02:12,976 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 58  acc = 83.4837
+2024-05-14 05:02:16,162 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:06:12,207 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 59 EpochTime = 236.044 (s) Losses = ['1.3976', '93.7412'] lr = 0.000273
+2024-05-14 05:06:34,130 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 59  acc = 82.8938
+2024-05-14 05:06:36,509 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:10:32,335 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 60 EpochTime = 235.825 (s) Losses = ['1.3914', '93.8378'] lr = 0.000272
+2024-05-14 05:10:54,161 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 60  acc = 85.2880
+2024-05-14 05:10:56,492 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:14:51,860 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 61 EpochTime = 235.365 (s) Losses = ['1.3699', '94.2328'] lr = 0.000271
+2024-05-14 05:15:13,716 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 61  acc = 83.6572
+2024-05-14 05:15:16,061 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:19:12,264 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 62 EpochTime = 236.202 (s) Losses = ['1.3541', '94.3996'] lr = 0.000270
+2024-05-14 05:19:34,170 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 62  acc = 85.0104
+2024-05-14 05:19:36,579 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:23:32,289 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 63 EpochTime = 235.707 (s) Losses = ['1.3635', '94.5312'] lr = 0.000270
+2024-05-14 05:23:54,095 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 63  acc = 84.1083
+2024-05-14 05:23:56,449 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:27:52,154 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 64 EpochTime = 235.704 (s) Losses = ['1.3395', '94.5927'] lr = 0.000269
+2024-05-14 05:28:14,012 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 64  acc = 84.9410
+2024-05-14 05:28:16,333 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:32:12,026 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 65 EpochTime = 235.690 (s) Losses = ['1.3359', '94.9087'] lr = 0.000268
+2024-05-14 05:32:33,939 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 65  acc = 83.8307
+2024-05-14 05:32:36,724 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:36:32,494 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 66 EpochTime = 235.769 (s) Losses = ['1.3319', '94.6629'] lr = 0.000267
+2024-05-14 05:36:54,383 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 66  acc = 86.0167
+2024-05-14 05:36:56,782 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 05:36:56,782 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 05:36:59,148 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:40:55,336 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 67 EpochTime = 236.186 (s) Losses = ['1.3255', '94.8560'] lr = 0.000266
+2024-05-14 05:41:17,315 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 67  acc = 87.4046
+2024-05-14 05:41:19,671 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 05:41:19,672 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 05:41:22,360 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:45:17,863 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 68 EpochTime = 235.501 (s) Losses = ['1.3050', '95.4003'] lr = 0.000265
+2024-05-14 05:45:39,795 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 68  acc = 85.1839
+2024-05-14 05:45:44,261 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:49:39,845 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 69 EpochTime = 235.583 (s) Losses = ['1.3094', '95.5056'] lr = 0.000264
+2024-05-14 05:50:01,737 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 69  acc = 86.3983
+2024-05-14 05:50:04,153 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:53:59,375 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 70 EpochTime = 235.220 (s) Losses = ['1.3051', '95.3388'] lr = 0.000263
+2024-05-14 05:54:21,269 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 70  acc = 86.1554
+2024-05-14 05:54:23,624 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 05:58:19,583 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 71 EpochTime = 235.957 (s) Losses = ['1.2955', '95.6110'] lr = 0.000262
+2024-05-14 05:58:41,468 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 71  acc = 85.6003
+2024-05-14 05:58:43,806 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:02:39,580 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 72 EpochTime = 235.770 (s) Losses = ['1.2792', '95.8831'] lr = 0.000261
+2024-05-14 06:03:01,556 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 72  acc = 86.3289
+2024-05-14 06:03:03,885 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:06:59,954 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 73 EpochTime = 236.068 (s) Losses = ['1.2998', '95.2686'] lr = 0.000260
+2024-05-14 06:07:21,841 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 73  acc = 85.5309
+2024-05-14 06:07:24,194 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:11:19,992 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 74 EpochTime = 235.796 (s) Losses = ['1.2533', '96.2605'] lr = 0.000259
+2024-05-14 06:11:42,038 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 74  acc = 84.5246
+2024-05-14 06:11:44,406 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:15:39,976 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 75 EpochTime = 235.568 (s) Losses = ['1.2566', '96.1815'] lr = 0.000258
+2024-05-14 06:16:01,870 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 75  acc = 85.8779
+2024-05-14 06:16:04,229 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:19:59,749 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 76 EpochTime = 235.517 (s) Losses = ['1.2657', '95.9972'] lr = 0.000256
+2024-05-14 06:20:21,729 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 76  acc = 84.4899
+2024-05-14 06:20:25,481 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:24:21,233 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 77 EpochTime = 235.751 (s) Losses = ['1.2562', '96.2781'] lr = 0.000255
+2024-05-14 06:24:43,198 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 77  acc = 83.7613
+2024-05-14 06:24:46,087 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:28:41,754 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 78 EpochTime = 235.665 (s) Losses = ['1.2408', '96.4975'] lr = 0.000254
+2024-05-14 06:29:03,653 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 78  acc = 85.6003
+2024-05-14 06:29:06,016 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:33:01,447 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 79 EpochTime = 235.429 (s) Losses = ['1.2339', '96.6731'] lr = 0.000253
+2024-05-14 06:33:23,353 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 79  acc = 85.6697
+2024-05-14 06:33:25,725 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:37:21,452 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 80 EpochTime = 235.725 (s) Losses = ['1.2260', '96.8048'] lr = 0.000252
+2024-05-14 06:37:43,330 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 80  acc = 85.0451
+2024-05-14 06:37:47,674 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:41:43,125 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 81 EpochTime = 235.449 (s) Losses = ['1.2354', '96.3834'] lr = 0.000251
+2024-05-14 06:42:05,105 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 81  acc = 85.0104
+2024-05-14 06:42:09,762 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:46:05,513 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 82 EpochTime = 235.749 (s) Losses = ['1.2265', '96.6994'] lr = 0.000250
+2024-05-14 06:46:27,541 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 82  acc = 85.4615
+2024-05-14 06:46:30,426 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:50:26,342 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 83 EpochTime = 235.914 (s) Losses = ['1.2269', '96.5327'] lr = 0.000249
+2024-05-14 06:50:48,229 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 83  acc = 85.3227
+2024-05-14 06:50:52,254 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:54:47,857 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 84 EpochTime = 235.601 (s) Losses = ['1.2041', '96.9716'] lr = 0.000247
+2024-05-14 06:55:09,768 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 84  acc = 84.5246
+2024-05-14 06:55:12,149 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 06:59:08,024 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 85 EpochTime = 235.873 (s) Losses = ['1.2194', '96.6204'] lr = 0.000246
+2024-05-14 06:59:30,004 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 85  acc = 84.3164
+2024-05-14 06:59:32,481 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:03:28,057 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 86 EpochTime = 235.575 (s) Losses = ['1.2139', '96.6994'] lr = 0.000245
+2024-05-14 07:03:49,999 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 86  acc = 85.9126
+2024-05-14 07:03:52,376 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:07:47,940 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 87 EpochTime = 235.563 (s) Losses = ['1.1928', '97.0330'] lr = 0.000244
+2024-05-14 07:08:09,779 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 87  acc = 86.1554
+2024-05-14 07:08:12,153 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:12:08,122 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 88 EpochTime = 235.967 (s) Losses = ['1.1984', '96.8750'] lr = 0.000243
+2024-05-14 07:12:30,089 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 88  acc = 85.1145
+2024-05-14 07:12:32,435 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:16:27,919 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 89 EpochTime = 235.483 (s) Losses = ['1.1795', '97.5860'] lr = 0.000241
+2024-05-14 07:16:49,941 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 89  acc = 85.7738
+2024-05-14 07:16:52,215 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:20:47,753 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 90 EpochTime = 235.536 (s) Losses = ['1.1613', '97.6036'] lr = 0.000240
+2024-05-14 07:21:09,639 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 90  acc = 84.6287
+2024-05-14 07:21:12,001 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:25:07,813 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 91 EpochTime = 235.811 (s) Losses = ['1.1778', '97.1910'] lr = 0.000239
+2024-05-14 07:25:29,740 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 91  acc = 85.8779
+2024-05-14 07:25:32,105 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:29:27,852 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 92 EpochTime = 235.745 (s) Losses = ['1.1713', '97.3841'] lr = 0.000238
+2024-05-14 07:29:49,950 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 92  acc = 85.2533
+2024-05-14 07:29:52,270 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:33:47,763 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 93 EpochTime = 235.492 (s) Losses = ['1.1721', '97.5509'] lr = 0.000237
+2024-05-14 07:34:09,706 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 93  acc = 84.3858
+2024-05-14 07:34:12,068 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:38:08,006 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 94 EpochTime = 235.937 (s) Losses = ['1.1601', '97.4631'] lr = 0.000235
+2024-05-14 07:38:30,004 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 94  acc = 85.1145
+2024-05-14 07:38:32,334 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:42:28,255 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 95 EpochTime = 235.920 (s) Losses = ['1.1562', '97.6299'] lr = 0.000234
+2024-05-14 07:42:50,096 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 95  acc = 85.2186
+2024-05-14 07:42:52,500 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:46:48,222 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 96 EpochTime = 235.720 (s) Losses = ['1.1537', '97.5246'] lr = 0.000233
+2024-05-14 07:47:10,077 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 96  acc = 85.7044
+2024-05-14 07:47:12,376 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:51:07,869 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 97 EpochTime = 235.490 (s) Losses = ['1.1545', '97.5334'] lr = 0.000231
+2024-05-14 07:51:29,861 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 97  acc = 85.6350
+2024-05-14 07:51:32,156 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:55:28,134 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 98 EpochTime = 235.976 (s) Losses = ['1.1531', '97.6826'] lr = 0.000230
+2024-05-14 07:55:50,043 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 98  acc = 84.1430
+2024-05-14 07:55:53,535 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 07:59:49,013 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 99 EpochTime = 235.477 (s) Losses = ['1.1521', '97.5421'] lr = 0.000229
+2024-05-14 08:00:10,936 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 99  acc = 84.4899
+2024-05-14 08:00:13,329 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:04:08,921 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 100 EpochTime = 235.590 (s) Losses = ['1.1230', '97.9986'] lr = 0.000227
+2024-05-14 08:04:30,814 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 100  acc = 84.9757
+2024-05-14 08:04:35,099 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:08:30,715 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 101 EpochTime = 235.614 (s) Losses = ['1.1312', '97.8933'] lr = 0.000226
+2024-05-14 08:08:52,650 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 101  acc = 85.9126
+2024-05-14 08:08:55,068 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:12:51,041 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 102 EpochTime = 235.971 (s) Losses = ['1.1288', '97.8933'] lr = 0.000225
+2024-05-14 08:13:12,999 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 102  acc = 85.9473
+2024-05-14 08:13:16,035 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:17:11,726 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 103 EpochTime = 235.689 (s) Losses = ['1.1250', '97.8757'] lr = 0.000224
+2024-05-14 08:17:33,630 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 103  acc = 85.3921
+2024-05-14 08:17:35,994 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:21:31,777 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 104 EpochTime = 235.781 (s) Losses = ['1.1204', '97.9196'] lr = 0.000222
+2024-05-14 08:21:53,771 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 104  acc = 84.6634
+2024-05-14 08:21:55,957 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:25:52,099 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 105 EpochTime = 236.141 (s) Losses = ['1.1224', '97.8406'] lr = 0.000221
+2024-05-14 08:26:13,995 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 105  acc = 85.5309
+2024-05-14 08:26:16,333 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:30:12,053 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 106 EpochTime = 235.718 (s) Losses = ['1.1094', '98.1039'] lr = 0.000219
+2024-05-14 08:30:33,914 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 106  acc = 86.1554
+2024-05-14 08:30:37,949 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:34:33,523 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 107 EpochTime = 235.572 (s) Losses = ['1.1225', '97.8494'] lr = 0.000218
+2024-05-14 08:34:55,401 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 107  acc = 85.0451
+2024-05-14 08:34:58,407 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:38:54,387 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 108 EpochTime = 235.977 (s) Losses = ['1.1075', '98.0952'] lr = 0.000217
+2024-05-14 08:39:16,448 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 108  acc = 85.0798
+2024-05-14 08:39:18,827 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:43:14,408 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 109 EpochTime = 235.580 (s) Losses = ['1.0980', '98.1654'] lr = 0.000215
+2024-05-14 08:43:36,318 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 109  acc = 85.7391
+2024-05-14 08:43:38,596 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:47:34,139 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 110 EpochTime = 235.542 (s) Losses = ['1.0983', '98.2180'] lr = 0.000214
+2024-05-14 08:47:56,050 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 110  acc = 85.9820
+2024-05-14 08:47:58,400 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:51:54,288 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 111 EpochTime = 235.886 (s) Losses = ['1.0896', '98.2707'] lr = 0.000213
+2024-05-14 08:52:16,166 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 111  acc = 85.2880
+2024-05-14 08:52:18,544 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 08:56:13,890 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 112 EpochTime = 235.343 (s) Losses = ['1.0877', '98.3673'] lr = 0.000211
+2024-05-14 08:56:35,769 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 112  acc = 86.2248
+2024-05-14 08:56:38,508 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:00:33,678 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 113 EpochTime = 235.169 (s) Losses = ['1.0969', '98.3673'] lr = 0.000210
+2024-05-14 09:00:55,539 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 113  acc = 86.5718
+2024-05-14 09:00:59,455 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:04:54,875 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 114 EpochTime = 235.419 (s) Losses = ['1.0820', '98.1742'] lr = 0.000208
+2024-05-14 09:05:16,802 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 114  acc = 85.6350
+2024-05-14 09:05:19,151 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:09:14,955 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 115 EpochTime = 235.802 (s) Losses = ['1.0777', '98.4902'] lr = 0.000207
+2024-05-14 09:09:36,787 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 115  acc = 84.5593
+2024-05-14 09:09:39,136 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:13:34,412 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 116 EpochTime = 235.274 (s) Losses = ['1.0717', '98.5077'] lr = 0.000206
+2024-05-14 09:13:56,380 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 116  acc = 85.8432
+2024-05-14 09:13:58,759 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:17:54,074 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 117 EpochTime = 235.313 (s) Losses = ['1.0699', '98.4463'] lr = 0.000204
+2024-05-14 09:18:16,177 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 117  acc = 85.8085
+2024-05-14 09:18:20,289 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:22:16,278 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 118 EpochTime = 235.987 (s) Losses = ['1.0898', '98.0864'] lr = 0.000203
+2024-05-14 09:22:38,213 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 118  acc = 86.3983
+2024-05-14 09:22:40,583 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:26:35,788 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 119 EpochTime = 235.203 (s) Losses = ['1.0622', '98.5955'] lr = 0.000201
+2024-05-14 09:26:57,626 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 119  acc = 84.2817
+2024-05-14 09:27:06,772 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:31:02,419 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 120 EpochTime = 235.645 (s) Losses = ['1.0498', '98.7798'] lr = 0.000200
+2024-05-14 09:31:24,388 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 120  acc = 86.2248
+2024-05-14 09:31:26,762 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:35:22,793 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 121 EpochTime = 236.029 (s) Losses = ['1.0635', '98.3673'] lr = 0.000198
+2024-05-14 09:35:44,773 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 121  acc = 85.7738
+2024-05-14 09:35:47,147 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:39:43,051 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 122 EpochTime = 235.903 (s) Losses = ['1.0623', '98.4375'] lr = 0.000197
+2024-05-14 09:40:04,914 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 122  acc = 86.0860
+2024-05-14 09:40:07,267 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:44:02,492 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 123 EpochTime = 235.223 (s) Losses = ['1.0507', '98.5955'] lr = 0.000195
+2024-05-14 09:44:24,425 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 123  acc = 86.3289
+2024-05-14 09:44:26,799 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:48:22,434 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 124 EpochTime = 235.633 (s) Losses = ['1.0534', '98.4638'] lr = 0.000194
+2024-05-14 09:48:44,326 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 124  acc = 86.5718
+2024-05-14 09:48:47,550 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:52:43,438 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 125 EpochTime = 235.886 (s) Losses = ['1.0375', '98.7711'] lr = 0.000193
+2024-05-14 09:53:05,393 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 125  acc = 85.5656
+2024-05-14 09:53:07,771 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 09:57:03,468 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 126 EpochTime = 235.696 (s) Losses = ['1.0425', '98.6745'] lr = 0.000191
+2024-05-14 09:57:25,429 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 126  acc = 85.9820
+2024-05-14 09:57:30,888 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:01:26,494 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 127 EpochTime = 235.604 (s) Losses = ['1.0319', '98.9993'] lr = 0.000190
+2024-05-14 10:01:48,363 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 127  acc = 87.4046
+2024-05-14 10:01:50,783 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:05:45,982 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 128 EpochTime = 235.197 (s) Losses = ['1.0446', '98.4989'] lr = 0.000188
+2024-05-14 10:06:07,905 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 128  acc = 86.3289
+2024-05-14 10:06:10,271 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:10:06,290 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 129 EpochTime = 236.016 (s) Losses = ['1.0163', '99.0607'] lr = 0.000187
+2024-05-14 10:10:28,217 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 129  acc = 87.4393
+2024-05-14 10:10:30,625 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 10:10:30,626 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 10:10:32,915 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:14:28,305 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 130 EpochTime = 235.389 (s) Losses = ['1.0283', '98.7798'] lr = 0.000185
+2024-05-14 10:14:50,208 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 130  acc = 86.4677
+2024-05-14 10:14:52,521 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:18:47,916 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 131 EpochTime = 235.392 (s) Losses = ['1.0326', '98.6482'] lr = 0.000184
+2024-05-14 10:19:09,924 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 131  acc = 86.8494
+2024-05-14 10:19:14,004 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:23:09,296 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 132 EpochTime = 235.290 (s) Losses = ['1.0159', '99.0432'] lr = 0.000182
+2024-05-14 10:23:31,197 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 132  acc = 87.4046
+2024-05-14 10:23:33,545 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:27:29,776 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 133 EpochTime = 236.229 (s) Losses = ['1.0119', '99.0695'] lr = 0.000181
+2024-05-14 10:27:51,758 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 133  acc = 86.4330
+2024-05-14 10:27:57,857 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:31:53,509 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 134 EpochTime = 235.650 (s) Losses = ['1.0399', '98.5516'] lr = 0.000179
+2024-05-14 10:32:15,549 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 134  acc = 86.5024
+2024-05-14 10:32:21,245 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:36:16,954 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 135 EpochTime = 235.708 (s) Losses = ['1.0208', '98.9466'] lr = 0.000178
+2024-05-14 10:36:38,911 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 135  acc = 86.1554
+2024-05-14 10:36:44,368 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:40:40,718 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 136 EpochTime = 236.349 (s) Losses = ['1.0165', '98.9642'] lr = 0.000176
+2024-05-14 10:41:02,675 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 136  acc = 85.7738
+2024-05-14 10:41:07,642 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:45:03,718 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 137 EpochTime = 236.074 (s) Losses = ['1.0128', '99.0607'] lr = 0.000175
+2024-05-14 10:45:25,530 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 137  acc = 86.9882
+2024-05-14 10:45:30,772 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:49:26,837 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 138 EpochTime = 236.063 (s) Losses = ['1.0135', '98.8940'] lr = 0.000173
+2024-05-14 10:49:48,675 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 138  acc = 86.8494
+2024-05-14 10:49:52,426 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:53:47,986 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 139 EpochTime = 235.558 (s) Losses = ['1.0004', '98.8852'] lr = 0.000172
+2024-05-14 10:54:09,869 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 139  acc = 86.9882
+2024-05-14 10:54:14,420 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 10:58:10,776 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 140 EpochTime = 236.355 (s) Losses = ['0.9995', '99.1310'] lr = 0.000170
+2024-05-14 10:58:32,713 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 140  acc = 87.2658
+2024-05-14 10:58:38,119 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:02:33,759 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 141 EpochTime = 235.639 (s) Losses = ['1.0116', '98.9379'] lr = 0.000169
+2024-05-14 11:02:55,611 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 141  acc = 87.2311
+2024-05-14 11:03:00,184 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:06:56,009 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 142 EpochTime = 235.822 (s) Losses = ['0.9908', '99.2100'] lr = 0.000167
+2024-05-14 11:07:18,008 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 142  acc = 86.6759
+2024-05-14 11:07:24,482 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:11:20,265 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 143 EpochTime = 235.781 (s) Losses = ['0.9846', '99.2626'] lr = 0.000166
+2024-05-14 11:11:42,207 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 143  acc = 84.0389
+2024-05-14 11:11:44,588 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:15:40,431 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 144 EpochTime = 235.841 (s) Losses = ['0.9974', '99.0783'] lr = 0.000164
+2024-05-14 11:16:02,449 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 144  acc = 86.9188
+2024-05-14 11:16:07,792 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:20:03,820 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 145 EpochTime = 236.027 (s) Losses = ['1.0038', '98.8852'] lr = 0.000163
+2024-05-14 11:20:25,718 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 145  acc = 85.7044
+2024-05-14 11:20:31,393 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:24:27,315 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 146 EpochTime = 235.919 (s) Losses = ['0.9910', '99.0959'] lr = 0.000161
+2024-05-14 11:24:49,277 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 146  acc = 87.1270
+2024-05-14 11:24:55,095 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:28:51,068 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 147 EpochTime = 235.971 (s) Losses = ['0.9837', '99.1573'] lr = 0.000160
+2024-05-14 11:29:12,948 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 147  acc = 88.0985
+2024-05-14 11:29:18,411 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 11:29:18,411 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 11:29:23,782 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:33:19,470 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 148 EpochTime = 235.685 (s) Losses = ['0.9832', '99.2275'] lr = 0.000158
+2024-05-14 11:33:41,274 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 148  acc = 87.5434
+2024-05-14 11:33:46,930 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:37:43,057 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 149 EpochTime = 236.125 (s) Losses = ['0.9883', '99.1046'] lr = 0.000157
+2024-05-14 11:38:04,944 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 149  acc = 85.9473
+2024-05-14 11:38:09,747 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:42:05,460 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 150 EpochTime = 235.710 (s) Losses = ['0.9859', '99.1573'] lr = 0.000155
+2024-05-14 11:42:27,404 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 150  acc = 87.6822
+2024-05-14 11:42:33,517 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:46:29,228 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 151 EpochTime = 235.709 (s) Losses = ['0.9715', '99.3329'] lr = 0.000153
+2024-05-14 11:46:51,211 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 151  acc = 87.6128
+2024-05-14 11:46:57,184 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:50:53,058 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 152 EpochTime = 235.872 (s) Losses = ['0.9723', '99.2890'] lr = 0.000152
+2024-05-14 11:51:14,951 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 152  acc = 87.8557
+2024-05-14 11:51:22,680 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:55:18,426 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 153 EpochTime = 235.744 (s) Losses = ['0.9568', '99.4645'] lr = 0.000150
+2024-05-14 11:55:40,383 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 153  acc = 86.3983
+2024-05-14 11:55:45,508 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 11:59:41,307 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 154 EpochTime = 235.798 (s) Losses = ['0.9611', '99.4119'] lr = 0.000149
+2024-05-14 12:00:03,266 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 154  acc = 86.0514
+2024-05-14 12:00:10,321 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:04:05,811 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 155 EpochTime = 235.486 (s) Losses = ['0.9890', '98.9115'] lr = 0.000147
+2024-05-14 12:04:27,683 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 155  acc = 87.3699
+2024-05-14 12:04:30,067 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:08:26,504 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 156 EpochTime = 236.435 (s) Losses = ['0.9704', '99.0871'] lr = 0.000146
+2024-05-14 12:08:48,396 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 156  acc = 86.0167
+2024-05-14 12:08:54,379 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:12:49,783 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 157 EpochTime = 235.402 (s) Losses = ['0.9647', '99.2363'] lr = 0.000144
+2024-05-14 12:13:11,667 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 157  acc = 87.1270
+2024-05-14 12:13:16,465 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:17:12,239 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 158 EpochTime = 235.770 (s) Losses = ['0.9489', '99.5260'] lr = 0.000143
+2024-05-14 12:17:34,159 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 158  acc = 87.1617
+2024-05-14 12:17:38,958 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:21:34,723 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 159 EpochTime = 235.763 (s) Losses = ['0.9559', '99.4031'] lr = 0.000141
+2024-05-14 12:21:56,592 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 159  acc = 86.7800
+2024-05-14 12:22:01,865 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:25:57,918 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 160 EpochTime = 236.052 (s) Losses = ['0.9537', '99.2539'] lr = 0.000140
+2024-05-14 12:26:19,787 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 160  acc = 86.9535
+2024-05-14 12:26:23,690 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:30:19,823 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 161 EpochTime = 236.132 (s) Losses = ['0.9584', '99.2714'] lr = 0.000138
+2024-05-14 12:30:41,766 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 161  acc = 86.6412
+2024-05-14 12:30:46,123 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:34:41,662 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 162 EpochTime = 235.538 (s) Losses = ['0.9689', '99.0783'] lr = 0.000137
+2024-05-14 12:35:03,666 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 162  acc = 87.6128
+2024-05-14 12:35:08,200 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:39:04,199 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 163 EpochTime = 235.998 (s) Losses = ['0.9288', '99.6225'] lr = 0.000135
+2024-05-14 12:39:26,189 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 163  acc = 86.2248
+2024-05-14 12:39:34,335 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:43:30,122 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 164 EpochTime = 235.785 (s) Losses = ['0.9377', '99.5084'] lr = 0.000134
+2024-05-14 12:43:52,064 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 164  acc = 87.0923
+2024-05-14 12:43:54,477 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:47:50,922 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 165 EpochTime = 236.443 (s) Losses = ['0.9523', '99.2275'] lr = 0.000132
+2024-05-14 12:48:12,885 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 165  acc = 87.7516
+2024-05-14 12:48:15,929 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:52:12,214 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 166 EpochTime = 236.283 (s) Losses = ['0.9427', '99.4294'] lr = 0.000131
+2024-05-14 12:52:34,127 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 166  acc = 86.7453
+2024-05-14 12:52:36,553 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 12:56:33,145 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 167 EpochTime = 236.590 (s) Losses = ['0.9348', '99.5787'] lr = 0.000129
+2024-05-14 12:56:55,176 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 167  acc = 87.8557
+2024-05-14 12:56:57,623 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:00:54,148 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 168 EpochTime = 236.523 (s) Losses = ['0.9429', '99.3504'] lr = 0.000128
+2024-05-14 13:01:16,178 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 168  acc = 88.3761
+2024-05-14 13:01:18,563 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 13:01:18,563 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 13:01:20,903 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:05:17,210 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 169 EpochTime = 236.305 (s) Losses = ['0.9399', '99.3153'] lr = 0.000126
+2024-05-14 13:05:39,224 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 169  acc = 86.9188
+2024-05-14 13:05:41,579 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:09:37,729 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 170 EpochTime = 236.148 (s) Losses = ['0.9326', '99.5260'] lr = 0.000125
+2024-05-14 13:09:59,551 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 170  acc = 88.0291
+2024-05-14 13:10:03,816 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:13:59,400 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 171 EpochTime = 235.582 (s) Losses = ['0.9218', '99.6050'] lr = 0.000123
+2024-05-14 13:14:21,281 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 171  acc = 87.6822
+2024-05-14 13:14:23,658 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:18:19,583 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 172 EpochTime = 235.923 (s) Losses = ['0.9293', '99.4206'] lr = 0.000122
+2024-05-14 13:18:41,546 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 172  acc = 86.8494
+2024-05-14 13:18:43,925 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:22:39,185 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 173 EpochTime = 235.256 (s) Losses = ['0.9224', '99.5874'] lr = 0.000120
+2024-05-14 13:23:01,002 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 173  acc = 85.4962
+2024-05-14 13:23:06,547 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:27:01,953 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 174 EpochTime = 235.404 (s) Losses = ['0.9195', '99.6225'] lr = 0.000119
+2024-05-14 13:27:23,833 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 174  acc = 87.9944
+2024-05-14 13:27:28,327 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:31:23,612 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 175 EpochTime = 235.281 (s) Losses = ['0.9199', '99.5523'] lr = 0.000117
+2024-05-14 13:31:45,496 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 175  acc = 86.2942
+2024-05-14 13:31:50,654 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:35:46,185 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 176 EpochTime = 235.529 (s) Losses = ['0.9292', '99.4119'] lr = 0.000116
+2024-05-14 13:36:07,963 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 176  acc = 87.3005
+2024-05-14 13:36:14,777 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:40:10,154 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 177 EpochTime = 235.375 (s) Losses = ['0.9314', '99.2890'] lr = 0.000115
+2024-05-14 13:40:31,880 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 177  acc = 87.7169
+2024-05-14 13:40:40,203 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:44:35,325 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 178 EpochTime = 235.120 (s) Losses = ['0.9109', '99.6752'] lr = 0.000113
+2024-05-14 13:44:57,071 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 178  acc = 85.7391
+2024-05-14 13:45:02,393 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:48:57,903 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 179 EpochTime = 235.508 (s) Losses = ['0.9192', '99.5874'] lr = 0.000112
+2024-05-14 13:49:19,727 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 179  acc = 87.1617
+2024-05-14 13:49:25,075 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:53:20,188 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 180 EpochTime = 235.110 (s) Losses = ['0.9029', '99.6313'] lr = 0.000110
+2024-05-14 13:53:41,996 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 180  acc = 87.8557
+2024-05-14 13:53:50,088 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 13:57:45,755 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 181 EpochTime = 235.664 (s) Losses = ['0.9118', '99.5787'] lr = 0.000109
+2024-05-14 13:58:07,643 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 181  acc = 87.4046
+2024-05-14 13:58:10,109 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:02:06,465 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 182 EpochTime = 236.354 (s) Losses = ['0.9198', '99.4645'] lr = 0.000107
+2024-05-14 14:02:28,467 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 182  acc = 87.1270
+2024-05-14 14:02:32,071 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:06:28,559 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 183 EpochTime = 236.487 (s) Losses = ['0.9139', '99.4382'] lr = 0.000106
+2024-05-14 14:06:50,493 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 183  acc = 86.7453
+2024-05-14 14:06:52,851 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:10:49,574 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 184 EpochTime = 236.722 (s) Losses = ['0.9155', '99.4294'] lr = 0.000104
+2024-05-14 14:11:11,482 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 184  acc = 86.8494
+2024-05-14 14:11:13,928 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:15:10,485 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 185 EpochTime = 236.555 (s) Losses = ['0.8952', '99.7454'] lr = 0.000103
+2024-05-14 14:15:32,368 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 185  acc = 87.8904
+2024-05-14 14:15:34,765 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:19:31,161 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 186 EpochTime = 236.394 (s) Losses = ['0.8858', '99.8332'] lr = 0.000102
+2024-05-14 14:19:53,205 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 186  acc = 87.1270
+2024-05-14 14:19:55,297 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:23:51,072 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 187 EpochTime = 235.763 (s) Losses = ['0.8914', '99.7015'] lr = 0.000100
+2024-05-14 14:24:13,000 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 187  acc = 85.9126
+2024-05-14 14:24:15,079 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:28:10,994 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 188 EpochTime = 235.913 (s) Losses = ['0.9048', '99.5348'] lr = 0.000099
+2024-05-14 14:28:33,011 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 188  acc = 87.8557
+2024-05-14 14:28:35,097 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:32:31,472 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 189 EpochTime = 236.373 (s) Losses = ['0.8920', '99.7454'] lr = 0.000097
+2024-05-14 14:32:53,381 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 189  acc = 86.8494
+2024-05-14 14:32:55,469 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:36:51,320 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 190 EpochTime = 235.848 (s) Losses = ['0.8988', '99.5787'] lr = 0.000096
+2024-05-14 14:37:13,135 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 190  acc = 86.5024
+2024-05-14 14:37:15,226 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:41:11,282 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 191 EpochTime = 236.055 (s) Losses = ['0.8925', '99.6752'] lr = 0.000095
+2024-05-14 14:41:33,120 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 191  acc = 86.6065
+2024-05-14 14:41:35,177 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:45:31,556 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 192 EpochTime = 236.378 (s) Losses = ['0.8876', '99.6752'] lr = 0.000093
+2024-05-14 14:45:53,412 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 192  acc = 87.9597
+2024-05-14 14:45:55,450 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:49:51,149 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 193 EpochTime = 235.697 (s) Losses = ['0.8950', '99.6050'] lr = 0.000092
+2024-05-14 14:50:13,167 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 193  acc = 87.6128
+2024-05-14 14:50:15,249 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:54:10,784 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 194 EpochTime = 235.533 (s) Losses = ['0.8763', '99.8157'] lr = 0.000091
+2024-05-14 14:54:32,602 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 194  acc = 87.6822
+2024-05-14 14:54:34,691 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 14:58:29,851 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 195 EpochTime = 235.159 (s) Losses = ['0.8837', '99.7279'] lr = 0.000089
+2024-05-14 14:58:51,627 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 195  acc = 87.2658
+2024-05-14 14:58:53,683 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:02:49,148 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 196 EpochTime = 235.464 (s) Losses = ['0.8917', '99.6840'] lr = 0.000088
+2024-05-14 15:03:10,923 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 196  acc = 87.6822
+2024-05-14 15:03:12,965 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:07:08,128 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 197 EpochTime = 235.161 (s) Losses = ['0.8874', '99.6752'] lr = 0.000086
+2024-05-14 15:07:29,859 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 197  acc = 86.9535
+2024-05-14 15:07:32,896 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:11:28,969 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 198 EpochTime = 236.071 (s) Losses = ['0.8769', '99.7454'] lr = 0.000085
+2024-05-14 15:11:50,805 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 198  acc = 87.7863
+2024-05-14 15:11:52,873 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:15:49,363 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 199 EpochTime = 236.488 (s) Losses = ['0.8848', '99.7103'] lr = 0.000084
+2024-05-14 15:16:11,405 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 199  acc = 87.6475
+2024-05-14 15:16:13,692 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:20:10,181 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 200 EpochTime = 236.488 (s) Losses = ['0.8874', '99.6138'] lr = 0.000082
+2024-05-14 15:20:32,318 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 200  acc = 87.5781
+2024-05-14 15:20:34,393 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:24:30,726 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 201 EpochTime = 236.331 (s) Losses = ['0.8808', '99.6840'] lr = 0.000081
+2024-05-14 15:24:52,693 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 201  acc = 87.1617
+2024-05-14 15:24:54,783 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:28:50,454 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 202 EpochTime = 235.669 (s) Losses = ['0.8827', '99.6840'] lr = 0.000080
+2024-05-14 15:29:12,337 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 202  acc = 87.5434
+2024-05-14 15:29:14,563 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:33:10,399 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 203 EpochTime = 235.834 (s) Losses = ['0.8714', '99.7893'] lr = 0.000079
+2024-05-14 15:33:32,437 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 203  acc = 87.9250
+2024-05-14 15:33:34,538 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:37:30,446 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 204 EpochTime = 235.906 (s) Losses = ['0.8676', '99.8771'] lr = 0.000077
+2024-05-14 15:37:52,357 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 204  acc = 87.5434
+2024-05-14 15:37:54,453 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:41:50,621 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 205 EpochTime = 236.166 (s) Losses = ['0.8586', '99.9298'] lr = 0.000076
+2024-05-14 15:42:12,531 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 205  acc = 87.6128
+2024-05-14 15:42:14,631 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:46:10,970 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 206 EpochTime = 236.337 (s) Losses = ['0.8697', '99.8069'] lr = 0.000075
+2024-05-14 15:46:32,912 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 206  acc = 88.1679
+2024-05-14 15:46:34,985 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:50:30,473 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 207 EpochTime = 235.486 (s) Losses = ['0.8633', '99.8596'] lr = 0.000073
+2024-05-14 15:50:52,387 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 207  acc = 87.8557
+2024-05-14 15:50:54,497 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:54:50,468 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 208 EpochTime = 235.969 (s) Losses = ['0.8602', '99.8508'] lr = 0.000072
+2024-05-14 15:55:12,350 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 208  acc = 87.1964
+2024-05-14 15:55:14,442 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 15:59:10,283 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 209 EpochTime = 235.839 (s) Losses = ['0.8636', '99.8069'] lr = 0.000071
+2024-05-14 15:59:32,175 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 209  acc = 87.6128
+2024-05-14 15:59:34,239 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:03:30,677 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 210 EpochTime = 236.435 (s) Losses = ['0.8667', '99.7805'] lr = 0.000070
+2024-05-14 16:03:52,644 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 210  acc = 87.6475
+2024-05-14 16:03:54,781 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:07:51,364 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 211 EpochTime = 236.582 (s) Losses = ['0.8602', '99.8596'] lr = 0.000069
+2024-05-14 16:08:13,299 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 211  acc = 87.2658
+2024-05-14 16:08:15,406 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:12:11,546 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 212 EpochTime = 236.138 (s) Losses = ['0.8508', '99.9561'] lr = 0.000067
+2024-05-14 16:12:33,404 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 212  acc = 87.4046
+2024-05-14 16:12:35,495 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:16:31,746 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 213 EpochTime = 236.249 (s) Losses = ['0.8638', '99.7367'] lr = 0.000066
+2024-05-14 16:16:53,576 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 213  acc = 86.9535
+2024-05-14 16:16:55,683 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:20:51,957 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 214 EpochTime = 236.272 (s) Losses = ['0.8611', '99.8069'] lr = 0.000065
+2024-05-14 16:21:13,815 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 214  acc = 88.2720
+2024-05-14 16:21:19,391 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:25:15,546 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 215 EpochTime = 236.152 (s) Losses = ['0.8513', '99.9210'] lr = 0.000064
+2024-05-14 16:25:37,554 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 215  acc = 86.8494
+2024-05-14 16:25:39,611 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:29:36,066 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 216 EpochTime = 236.454 (s) Losses = ['0.8651', '99.6752'] lr = 0.000063
+2024-05-14 16:29:57,939 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 216  acc = 86.0860
+2024-05-14 16:30:00,038 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:33:56,518 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 217 EpochTime = 236.478 (s) Losses = ['0.8620', '99.7454'] lr = 0.000061
+2024-05-14 16:34:18,591 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 217  acc = 88.1332
+2024-05-14 16:34:21,363 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:38:17,447 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 218 EpochTime = 236.082 (s) Losses = ['0.8488', '99.8771'] lr = 0.000060
+2024-05-14 16:38:39,321 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 218  acc = 88.4802
+2024-05-14 16:38:41,507 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 16:38:41,507 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 16:38:45,512 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:42:40,866 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 219 EpochTime = 235.353 (s) Losses = ['0.8507', '99.8508'] lr = 0.000059
+2024-05-14 16:43:02,861 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 219  acc = 88.2720
+2024-05-14 16:43:05,110 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:47:02,226 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 220 EpochTime = 237.115 (s) Losses = ['0.8484', '99.8596'] lr = 0.000058
+2024-05-14 16:47:24,233 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 220  acc = 87.1964
+2024-05-14 16:47:26,314 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:51:22,885 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 221 EpochTime = 236.570 (s) Losses = ['0.8471', '99.8947'] lr = 0.000057
+2024-05-14 16:51:44,809 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 221  acc = 88.4802
+2024-05-14 16:51:46,889 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 16:55:43,626 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 222 EpochTime = 236.735 (s) Losses = ['0.8556', '99.7630'] lr = 0.000056
+2024-05-14 16:56:05,619 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 222  acc = 88.5149
+2024-05-14 16:56:07,707 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 16:56:07,707 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 16:56:09,973 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:00:06,055 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 223 EpochTime = 236.080 (s) Losses = ['0.8465', '99.8420'] lr = 0.000055
+2024-05-14 17:00:27,988 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 223  acc = 88.4802
+2024-05-14 17:00:30,892 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:04:26,595 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 224 EpochTime = 235.702 (s) Losses = ['0.8399', '99.9298'] lr = 0.000054
+2024-05-14 17:04:48,684 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 224  acc = 88.3761
+2024-05-14 17:04:51,158 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:08:47,637 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 225 EpochTime = 236.477 (s) Losses = ['0.8460', '99.8508'] lr = 0.000052
+2024-05-14 17:09:09,708 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 225  acc = 87.8210
+2024-05-14 17:09:12,029 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:13:07,783 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 226 EpochTime = 235.751 (s) Losses = ['0.8494', '99.7981'] lr = 0.000051
+2024-05-14 17:13:29,626 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 226  acc = 87.9944
+2024-05-14 17:13:31,845 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:17:28,122 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 227 EpochTime = 236.274 (s) Losses = ['0.8453', '99.8508'] lr = 0.000050
+2024-05-14 17:17:50,106 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 227  acc = 88.2720
+2024-05-14 17:17:52,241 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:21:48,848 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 228 EpochTime = 236.605 (s) Losses = ['0.8383', '99.9210'] lr = 0.000049
+2024-05-14 17:22:10,813 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 228  acc = 87.0229
+2024-05-14 17:22:12,970 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:26:09,716 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 229 EpochTime = 236.744 (s) Losses = ['0.8360', '99.9386'] lr = 0.000048
+2024-05-14 17:26:31,714 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 229  acc = 88.8966
+2024-05-14 17:26:33,830 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 17:26:33,830 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 17:26:35,911 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:30:31,974 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 230 EpochTime = 236.061 (s) Losses = ['0.8425', '99.8596'] lr = 0.000047
+2024-05-14 17:30:53,914 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 230  acc = 87.2658
+2024-05-14 17:30:55,994 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:34:51,577 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 231 EpochTime = 235.580 (s) Losses = ['0.8386', '99.8859'] lr = 0.000046
+2024-05-14 17:35:13,486 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 231  acc = 87.8904
+2024-05-14 17:35:15,582 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:39:12,266 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 232 EpochTime = 236.682 (s) Losses = ['0.8347', '99.9122'] lr = 0.000045
+2024-05-14 17:39:34,308 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 232  acc = 88.3761
+2024-05-14 17:39:36,410 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:43:33,700 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 233 EpochTime = 237.288 (s) Losses = ['0.8306', '99.9649'] lr = 0.000044
+2024-05-14 17:43:55,737 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 233  acc = 88.1679
+2024-05-14 17:43:57,841 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:47:55,228 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 234 EpochTime = 237.385 (s) Losses = ['0.8326', '99.9473'] lr = 0.000043
+2024-05-14 17:48:17,084 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 234  acc = 88.1679
+2024-05-14 17:48:19,604 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:52:15,745 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 235 EpochTime = 236.138 (s) Losses = ['0.8322', '99.9561'] lr = 0.000042
+2024-05-14 17:52:37,580 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 235  acc = 88.4455
+2024-05-14 17:52:42,699 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 17:56:39,041 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 236 EpochTime = 236.339 (s) Losses = ['0.8325', '99.9034'] lr = 0.000041
+2024-05-14 17:57:01,185 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 236  acc = 88.1679
+2024-05-14 17:57:03,277 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:01:00,234 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 237 EpochTime = 236.955 (s) Losses = ['0.8264', '99.9561'] lr = 0.000040
+2024-05-14 18:01:22,191 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 237  acc = 88.0638
+2024-05-14 18:01:24,327 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:05:20,952 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 238 EpochTime = 236.623 (s) Losses = ['0.8287', '99.9034'] lr = 0.000040
+2024-05-14 18:05:42,972 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 238  acc = 87.6475
+2024-05-14 18:05:45,067 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:09:41,151 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 239 EpochTime = 236.080 (s) Losses = ['0.8322', '99.9034'] lr = 0.000039
+2024-05-14 18:10:03,199 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 239  acc = 88.3761
+2024-05-14 18:10:05,893 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:14:02,494 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 240 EpochTime = 236.600 (s) Losses = ['0.8308', '99.9210'] lr = 0.000038
+2024-05-14 18:14:24,421 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 240  acc = 87.9944
+2024-05-14 18:14:26,490 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:18:22,509 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 241 EpochTime = 236.016 (s) Losses = ['0.8305', '99.8683'] lr = 0.000037
+2024-05-14 18:18:44,431 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 241  acc = 87.9944
+2024-05-14 18:18:47,331 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:22:43,236 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 242 EpochTime = 235.903 (s) Losses = ['0.8245', '99.9649'] lr = 0.000036
+2024-05-14 18:23:05,118 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 242  acc = 88.0291
+2024-05-14 18:23:07,176 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:27:02,881 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 243 EpochTime = 235.703 (s) Losses = ['0.8243', '99.9122'] lr = 0.000035
+2024-05-14 18:27:24,761 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 243  acc = 87.9597
+2024-05-14 18:27:26,827 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:31:22,764 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 244 EpochTime = 235.935 (s) Losses = ['0.8251', '99.9122'] lr = 0.000034
+2024-05-14 18:31:44,686 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 244  acc = 87.7863
+2024-05-14 18:31:46,740 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:35:42,358 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 245 EpochTime = 235.616 (s) Losses = ['0.8251', '99.8859'] lr = 0.000033
+2024-05-14 18:36:04,233 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 245  acc = 88.1679
+2024-05-14 18:36:06,317 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:40:02,316 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 246 EpochTime = 235.997 (s) Losses = ['0.8243', '99.9473'] lr = 0.000033
+2024-05-14 18:40:24,222 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 246  acc = 88.0291
+2024-05-14 18:40:26,319 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:44:22,311 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 247 EpochTime = 235.990 (s) Losses = ['0.8244', '99.9210'] lr = 0.000032
+2024-05-14 18:44:44,160 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 247  acc = 88.6190
+2024-05-14 18:44:46,239 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:48:41,740 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 248 EpochTime = 235.499 (s) Losses = ['0.8217', '99.9649'] lr = 0.000031
+2024-05-14 18:49:03,645 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 248  acc = 88.5843
+2024-05-14 18:49:05,725 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:53:01,600 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 249 EpochTime = 235.873 (s) Losses = ['0.8198', '99.9210'] lr = 0.000030
+2024-05-14 18:53:23,683 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 249  acc = 88.2026
+2024-05-14 18:53:25,756 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 18:57:21,727 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 250 EpochTime = 235.970 (s) Losses = ['0.8196', '99.9298'] lr = 0.000029
+2024-05-14 18:57:43,761 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 250  acc = 89.1742
+2024-05-14 18:57:47,380 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 18:57:47,380 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 18:57:49,452 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:01:45,006 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 251 EpochTime = 235.552 (s) Losses = ['0.8180', '99.9561'] lr = 0.000029
+2024-05-14 19:02:06,994 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 251  acc = 88.8619
+2024-05-14 19:02:09,070 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:06:04,537 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 252 EpochTime = 235.465 (s) Losses = ['0.8122', '99.9561'] lr = 0.000028
+2024-05-14 19:06:26,476 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 252  acc = 88.4108
+2024-05-14 19:06:28,534 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:10:24,494 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 253 EpochTime = 235.958 (s) Losses = ['0.8202', '99.9473'] lr = 0.000027
+2024-05-14 19:10:46,343 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 253  acc = 87.5781
+2024-05-14 19:10:49,115 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:14:45,249 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 254 EpochTime = 236.132 (s) Losses = ['0.8162', '99.9561'] lr = 0.000027
+2024-05-14 19:15:07,039 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 254  acc = 88.5149
+2024-05-14 19:15:09,098 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:19:04,947 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 255 EpochTime = 235.848 (s) Losses = ['0.8163', '99.9737'] lr = 0.000026
+2024-05-14 19:19:26,882 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 255  acc = 88.5149
+2024-05-14 19:19:28,965 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:23:24,712 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 256 EpochTime = 235.745 (s) Losses = ['0.8188', '99.9386'] lr = 0.000025
+2024-05-14 19:23:46,790 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 256  acc = 88.1679
+2024-05-14 19:23:48,897 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:27:44,438 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 257 EpochTime = 235.539 (s) Losses = ['0.8177', '99.9298'] lr = 0.000024
+2024-05-14 19:28:06,358 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 257  acc = 88.4455
+2024-05-14 19:28:08,473 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:32:04,020 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 258 EpochTime = 235.544 (s) Losses = ['0.8174', '99.9122'] lr = 0.000024
+2024-05-14 19:32:26,038 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 258  acc = 88.3761
+2024-05-14 19:32:28,136 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:36:24,091 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 259 EpochTime = 235.953 (s) Losses = ['0.8132', '99.9561'] lr = 0.000023
+2024-05-14 19:36:45,956 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 259  acc = 88.7231
+2024-05-14 19:36:48,041 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:40:44,066 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 260 EpochTime = 236.024 (s) Losses = ['0.8118', '99.9737'] lr = 0.000023
+2024-05-14 19:41:05,957 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 260  acc = 88.7925
+2024-05-14 19:41:08,049 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:45:03,858 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 261 EpochTime = 235.807 (s) Losses = ['0.8158', '99.9912'] lr = 0.000022
+2024-05-14 19:45:25,757 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 261  acc = 88.2720
+2024-05-14 19:45:27,841 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:49:23,612 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 262 EpochTime = 235.770 (s) Losses = ['0.8158', '99.9298'] lr = 0.000021
+2024-05-14 19:49:45,478 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 262  acc = 88.3414
+2024-05-14 19:49:47,563 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:53:43,485 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 263 EpochTime = 235.920 (s) Losses = ['0.8112', '99.9649'] lr = 0.000021
+2024-05-14 19:54:05,339 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 263  acc = 88.8966
+2024-05-14 19:54:07,400 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 19:58:03,467 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 264 EpochTime = 236.066 (s) Losses = ['0.8128', '99.9649'] lr = 0.000020
+2024-05-14 19:58:25,455 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 264  acc = 88.4455
+2024-05-14 19:58:27,543 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:02:23,362 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 265 EpochTime = 235.818 (s) Losses = ['0.8126', '99.9737'] lr = 0.000020
+2024-05-14 20:02:45,219 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 265  acc = 88.0985
+2024-05-14 20:02:47,324 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:06:44,075 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 266 EpochTime = 236.749 (s) Losses = ['0.8123', '99.9298'] lr = 0.000019
+2024-05-14 20:07:05,915 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 266  acc = 87.7863
+2024-05-14 20:07:10,318 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:11:06,697 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 267 EpochTime = 236.378 (s) Losses = ['0.8101', '99.9824'] lr = 0.000019
+2024-05-14 20:11:28,681 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 267  acc = 88.7231
+2024-05-14 20:11:30,815 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:15:26,896 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 268 EpochTime = 236.078 (s) Losses = ['0.8081', '99.9737'] lr = 0.000018
+2024-05-14 20:15:48,934 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 268  acc = 89.1742
+2024-05-14 20:15:53,273 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:19:48,878 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 269 EpochTime = 235.603 (s) Losses = ['0.8118', '99.9298'] lr = 0.000018
+2024-05-14 20:20:10,635 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 269  acc = 88.8272
+2024-05-14 20:20:12,701 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:24:07,965 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 270 EpochTime = 235.262 (s) Losses = ['0.8058', '99.9561'] lr = 0.000017
+2024-05-14 20:24:29,828 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 270  acc = 88.7231
+2024-05-14 20:24:31,917 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:28:28,067 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 271 EpochTime = 236.149 (s) Losses = ['0.8099', '99.9473'] lr = 0.000017
+2024-05-14 20:28:49,913 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 271  acc = 88.8619
+2024-05-14 20:28:52,046 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:32:47,227 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 272 EpochTime = 235.180 (s) Losses = ['0.8064', '99.9737'] lr = 0.000016
+2024-05-14 20:33:09,101 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 272  acc = 89.0701
+2024-05-14 20:33:11,171 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:37:06,723 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 273 EpochTime = 235.550 (s) Losses = ['0.8053', '99.9473'] lr = 0.000016
+2024-05-14 20:37:28,471 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 273  acc = 88.4802
+2024-05-14 20:37:30,557 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:41:25,788 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 274 EpochTime = 235.229 (s) Losses = ['0.8078', '99.9649'] lr = 0.000015
+2024-05-14 20:41:47,536 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 274  acc = 88.7578
+2024-05-14 20:41:49,601 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:45:44,956 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 275 EpochTime = 235.353 (s) Losses = ['0.8056', '99.9824'] lr = 0.000015
+2024-05-14 20:46:06,739 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 275  acc = 88.6537
+2024-05-14 20:46:08,822 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:50:04,197 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 276 EpochTime = 235.372 (s) Losses = ['0.8054', '99.9824'] lr = 0.000015
+2024-05-14 20:50:25,967 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 276  acc = 88.9313
+2024-05-14 20:50:28,053 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:54:23,410 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 277 EpochTime = 235.354 (s) Losses = ['0.8042', '99.9737'] lr = 0.000014
+2024-05-14 20:54:45,229 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 277  acc = 88.5496
+2024-05-14 20:54:47,294 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 20:58:42,836 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 278 EpochTime = 235.541 (s) Losses = ['0.8051', '99.9912'] lr = 0.000014
+2024-05-14 20:59:04,629 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 278  acc = 89.2436
+2024-05-14 20:59:07,324 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 20:59:07,324 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 20:59:11,398 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:03:06,370 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 279 EpochTime = 234.971 (s) Losses = ['0.8063', '99.9824'] lr = 0.000013
+2024-05-14 21:03:28,196 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 279  acc = 88.7578
+2024-05-14 21:03:30,279 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:07:26,278 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 280 EpochTime = 235.997 (s) Losses = ['0.8067', '99.9912'] lr = 0.000013
+2024-05-14 21:07:48,185 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 280  acc = 88.7231
+2024-05-14 21:07:54,481 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:11:49,818 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 281 EpochTime = 235.336 (s) Losses = ['0.8045', '100.0000'] lr = 0.000013
+2024-05-14 21:12:11,617 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 281  acc = 89.1742
+2024-05-14 21:12:13,881 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:16:07,641 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 282 EpochTime = 233.759 (s) Losses = ['0.8018', '99.9737'] lr = 0.000013
+2024-05-14 21:16:29,346 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 282  acc = 88.8619
+2024-05-14 21:16:31,404 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:20:24,756 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 283 EpochTime = 233.350 (s) Losses = ['0.8019', '99.9561'] lr = 0.000012
+2024-05-14 21:20:46,439 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 283  acc = 89.0701
+2024-05-14 21:20:48,511 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:24:42,618 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 284 EpochTime = 234.104 (s) Losses = ['0.8047', '99.9737'] lr = 0.000012
+2024-05-14 21:25:04,209 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 284  acc = 89.3477
+2024-05-14 21:25:06,258 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 21:25:06,258 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 21:25:08,321 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:29:01,553 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 285 EpochTime = 233.230 (s) Losses = ['0.8060', '99.9737'] lr = 0.000012
+2024-05-14 21:29:23,141 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 285  acc = 89.3130
+2024-05-14 21:29:25,184 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:33:18,596 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 286 EpochTime = 233.411 (s) Losses = ['0.8041', '99.9737'] lr = 0.000012
+2024-05-14 21:33:40,239 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 286  acc = 89.1395
+2024-05-14 21:33:42,355 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:37:36,277 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 287 EpochTime = 233.920 (s) Losses = ['0.8027', '99.9737'] lr = 0.000011
+2024-05-14 21:37:57,998 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 287  acc = 89.2436
+2024-05-14 21:38:01,966 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:41:55,847 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 288 EpochTime = 233.880 (s) Losses = ['0.8001', '99.9561'] lr = 0.000011
+2024-05-14 21:42:17,472 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 288  acc = 89.0007
+2024-05-14 21:42:19,722 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:46:13,148 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 289 EpochTime = 233.424 (s) Losses = ['0.8002', '99.9737'] lr = 0.000011
+2024-05-14 21:46:34,804 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 289  acc = 89.0354
+2024-05-14 21:46:37,066 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:50:30,392 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 290 EpochTime = 233.325 (s) Losses = ['0.8002', '99.9737'] lr = 0.000011
+2024-05-14 21:50:51,981 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 290  acc = 89.4518
+2024-05-14 21:50:54,256 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-best.pth
+2024-05-14 21:50:54,256 - finetune_scan_hardest_lr3_group_size16 - INFO - --------------------------------------------------------------------------------------------
+2024-05-14 21:50:56,593 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:54:49,732 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 291 EpochTime = 233.137 (s) Losses = ['0.8026', '99.9561'] lr = 0.000011
+2024-05-14 21:55:11,371 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 291  acc = 89.3477
+2024-05-14 21:55:13,565 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 21:59:06,800 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 292 EpochTime = 233.232 (s) Losses = ['0.7989', '99.9912'] lr = 0.000011
+2024-05-14 21:59:28,399 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 292  acc = 89.3824
+2024-05-14 21:59:30,654 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:03:23,783 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 293 EpochTime = 233.126 (s) Losses = ['0.8003', '99.9737'] lr = 0.000010
+2024-05-14 22:03:45,384 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 293  acc = 89.1048
+2024-05-14 22:03:47,505 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:07:40,686 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 294 EpochTime = 233.180 (s) Losses = ['0.8025', '99.9912'] lr = 0.000010
+2024-05-14 22:08:02,419 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 294  acc = 89.0701
+2024-05-14 22:08:04,573 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:11:58,895 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 295 EpochTime = 234.320 (s) Losses = ['0.8016', '99.9912'] lr = 0.000010
+2024-05-14 22:12:20,610 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 295  acc = 89.1742
+2024-05-14 22:12:22,763 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:16:17,809 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 296 EpochTime = 235.044 (s) Losses = ['0.7988', '99.9912'] lr = 0.000010
+2024-05-14 22:16:39,642 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 296  acc = 89.3477
+2024-05-14 22:16:42,025 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:20:36,942 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 297 EpochTime = 234.915 (s) Losses = ['0.7993', '99.9824'] lr = 0.000010
+2024-05-14 22:20:58,571 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 297  acc = 89.3130
+2024-05-14 22:21:01,091 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:24:55,604 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 298 EpochTime = 234.511 (s) Losses = ['0.7998', '99.9737'] lr = 0.000010
+2024-05-14 22:25:17,352 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 298  acc = 89.1395
+2024-05-14 22:25:20,269 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:29:15,288 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 299 EpochTime = 235.017 (s) Losses = ['0.8008', '99.9737'] lr = 0.000010
+2024-05-14 22:29:37,022 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 299  acc = 89.0354
+2024-05-14 22:29:39,420 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
+2024-05-14 22:33:33,792 - finetune_scan_hardest_lr3_group_size16 - INFO - [Training] EPOCH: 300 EpochTime = 234.371 (s) Losses = ['0.7993', '99.9561'] lr = 0.000010
+2024-05-14 22:33:55,550 - finetune_scan_hardest_lr3_group_size16 - INFO - [Validation] EPOCH: 300  acc = 89.1395
+2024-05-14 22:33:57,842 - finetune_scan_hardest_lr3_group_size16 - INFO - Save checkpoint at ./experiments/finetune_scan_hardest_lr3_group_size16/cfgs/new_run_Attention_simple_score_predictor_no_cls_token_4layer_drop_neg_sort_both_1224/ckpt-last.pth
