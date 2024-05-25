@@ -28,6 +28,8 @@ $ conda activate PoinTramba
 
 (PoinTramba) $ pip install causal-conv1d==1.1.1
 (PoinTramba) $ pip install mamba-ssm==1.1.1
+
+(PoinTramba) $ pip install -r requirements.txt
 ```
 
 
