@@ -1,6 +1,6 @@
 This is the official PyTorch implementation of our paper:
 
-> **PoinTramba: A Hybrid Transformer-Mamba Framework for Point Cloud Analysis**
+> **[PoinTramba: A Hybrid Transformer-Mamba Framework for Point Cloud Analysis](https://arxiv.org/abs/2405.15463)**
 
 
 
