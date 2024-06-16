@@ -148,7 +148,7 @@ def run_net(args, config, train_writer=None, val_writer=None):
     base_model.zero_grad()
     misc.summary_parameters(base_model, logger=logger)
 
-    pdb.set_trace()
+    # pdb.set_trace()
 
     for epoch in range(start_epoch, config.max_epoch + 1):
         if args.distributed:
@@ -180,7 +180,7 @@ def run_net(args, config, train_writer=None, val_writer=None):
         # print(f'flops: {macs}')
         # # pytorch_total_params = sum(p.numel() for p in model.denoiser.parameters())
         # # print(f"pytorch_total_params: {pytorch_total_params/1000/1000} MB")
-        pdb.set_trace()
+        # pdb.set_trace()
 
         npoints = config.npoints
         for idx, (taxonomy_ids, model_ids, data) in enumerate(train_dataloader):
@@ -209,11 +209,11 @@ def run_net(args, config, train_writer=None, val_writer=None):
             fps_idx = pointnet2_utils.furthest_point_sample(points, point_all)  # (B, npoint)
             fps_idx = fps_idx[:, np.random.choice(point_all, npoints, False)]
             points = pointnet2_utils.gather_operation(points.transpose(1, 2).contiguous(), fps_idx).transpose(1, 2).contiguous()  # (B, N, 3)
-            # if 'scan' in args.config:
-            #     points = train_transforms(points)
-            # else:
-            #     points = train_transforms_raw(points)
-            points = train_transforms_raw(points)
+            if 'scan' in args.config:
+                points = train_transforms(points)
+            else:
+                points = train_transforms_raw(points)
+            # points = train_transforms_raw(points)
 
             if config.model.NAME == 'PointMamba' or config.model.NAME == 'PointMambaFormer' or config.model.NAME == 'PointMambaFormerPP':
                 ret, map_patch_feature, map_global_feature, cal_importance = base_model(points)
@@ -417,7 +417,7 @@ def validate_vote(base_model, test_dataloader, epoch, val_writer, args, config, 
                 points = pointnet2_utils.gather_operation(points_raw.transpose(1, 2).contiguous(),
                                                           fps_idx).transpose(1, 2).contiguous()  # (B, N, 3)
 
-                points = test_transforms_vote(points)
+                points = test_transforms(points)
 
                 if config.model.NAME == 'PointMamba' or config.model.NAME == 'PointMambaFormer' or config.model.NAME == 'PointMambaFormerPP':
                     logits, map_patch_feature_val, map_global_feature_val, cal_importance_val = base_model(points)
@@ -469,10 +469,10 @@ def test_net(args, config):
     if args.distributed:
         raise NotImplementedError()
 
-    validate_vote(base_model, test_dataloader, args, config, logger=logger)
+    test(base_model, test_dataloader, args, config, logger=logger)
 
 
-def test_vote(base_model, test_dataloader, args, config, logger=None):
+def test(base_model, test_dataloader, args, config, logger=None):
     base_model.eval()  # set model to eval mode
 
     test_pred = []
