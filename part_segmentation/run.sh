@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 python main.py --config cfgs/config.yaml --log_dir test_seg
