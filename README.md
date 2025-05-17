@@ -101,7 +101,7 @@ If you find these projects useful, please consider citing our paper.
 
 ## Note
 
-We will further improve our PoinTramba on PartSegmentation and we wil release the segmentation code soon.
+Just released the codes for segmentation (sorry for being too lazy to clean the code, orz....).
 
 
 
